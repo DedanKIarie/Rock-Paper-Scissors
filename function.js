@@ -75,6 +75,8 @@ let myfunction = function() {
 
     setTimeout(function()  {
         result.innerHTML = "Will demolish you..."
+        result.style.backgroundColor = "red";
+        result.style.color = "White";
     }, 11200);
 
     setTimeout(function()  {
@@ -82,15 +84,15 @@ let myfunction = function() {
 
         setTimeout(function()  {
             if (picked =="Rock") {
-                result.innerHTML =  "Bot picked " + "Paper" + " and you Lost TERRIBLEY";
+                result.innerHTML =  "Bot picked " + "Scissors" + " and you Lost TERRIBLY";
                 result.style.backgroundColor = "red";
                 result.style.color = "White";
             } else if (picked =="Paper") {
-                result.innerHTML =  "Bot picked " + "Scissors" + " and you Lost TERRIBLEY";
+                result.innerHTML =  "Bot picked " + "Rock" + " and you Lost TERRIBLY";
                 result.style.backgroundColor = "red";
                 result.style.color = "White";
             } else if (picked =="Scissors") {
-                result.innerHTML =  "Bot picked " + "Rock" + " and you Lost TERRIBLEY";
+                result.innerHTML =  "Bot picked " + "Paper" + " and you Lost TERRIBLY";
                 result.style.backgroundColor = "red";
                 result.style.color = "White";
             } 
